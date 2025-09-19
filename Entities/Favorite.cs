@@ -13,7 +13,7 @@ namespace TareaEntidades.Entities
         public int CustomerId { get; set; }
         public Customer Customer { get; set; } = null!;
 
-        public int CompanyId { get; set; }
+        public string? CompanyId { get; set; }
         public Company Company { get; set; } = null!;
 
         // Relación con detalles de favoritos

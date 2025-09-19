@@ -7,11 +7,11 @@ namespace TareaEntidades.Entities
 {
         public class Company
     {
-        public string? Id { get; set; }   // PK (varchar(20))
-        public int TypeId { get; set; }           // FK a typesidentifications
+        public string? Id { get; set; } 
+        public int TypeId { get; set; }     
         public string? Name { get; set; }
-        public int CategoryId { get; set; }       // FK a categories
-        public string? CityId { get; set; } // FK a citiesormunicipalities
+        public int CategoryId { get; set; } 
+        public string? CityId { get; set; } // FK a citiesormunicipalitie
         public int AudienceId { get; set; }       // FK a audiences
         public string? Cellphone { get; set; }
         public string? Email { get; set; }

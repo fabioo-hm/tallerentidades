@@ -16,7 +16,7 @@ namespace TareaEntidades.Entities
         public int PollId { get; set; }
         public Poll Poll { get; set; } = null!;
 
-        public int CompanyId { get; set; }
+        public string? CompanyId { get; set; }
         public Company Company { get; set; } = null!;
 
         public DateTime DateRating { get; set; }

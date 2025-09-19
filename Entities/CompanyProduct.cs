@@ -7,7 +7,7 @@ namespace TareaEntidades.Entities
 {
     public class CompanyProduct
     {
-        public int CompanyId { get; set; }
+        public string? CompanyId { get; set; }
         public int ProductId { get; set; }
         public double Price { get; set; }
         public int UnitMeasureId { get; set; }
